@@ -1,0 +1,24 @@
+<Document>
+  <Framework>
+
+    <mobility value="false"/>
+
+    <interference value="false" />
+
+    <edgeType value="sinalgo.nodes.edges.BidirectionalEdge" />
+
+    <initializeConnectionsOnStartup value="true" />
+
+    <defaultMessageTransmissionModel value="RandomTime" />
+
+    <RandomMessageTransmission distribution="Uniform" min="1" max="5" />
+
+  </Framework>
+  <Custom>
+
+    <GeometricNodeCollection rMax="150" />
+
+    <UDG rMax="150" />
+
+  </Custom>
+</Document>
